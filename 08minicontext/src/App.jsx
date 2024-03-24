@@ -6,7 +6,7 @@ import Profile from './components/Profile'
 
 function App() {
 
-
+  console.log("gyanendra app ")
   return (
     <UserContextProvider>
       <h1>Gyanendra kumar</h1>

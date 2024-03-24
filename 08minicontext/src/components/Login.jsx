@@ -10,9 +10,9 @@ function Login()
     
     const handleSumbimt = (e)=>
         {
-            console.log(e.target.userName)
+            console.log( setUser({userName, Password}))
             e.preventDefault();
-            SetUser({userName, Password})
+            setUser({userName, Password})
         }
 
     return (
